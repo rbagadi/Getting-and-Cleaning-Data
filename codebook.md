@@ -7,6 +7,16 @@ output: html_document
 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
+Steps performed:
+1. Read both x_data files and kept only std and mean measurements columns.
+2. Read subject and activity files from both dir's.
+3. cBind all theree datasets
+4. replaced activity id's with activity labels
+5. Names columns using features file
+6. Calculated the means by subject and activity
+7. written output files to text file
+
+
 Tidy Dataset column names
 
 "Activity"
